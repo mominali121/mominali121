@@ -1,0 +1,33 @@
+body{
+  font-family: 'Arvo', serif;
+
+}
+ 
+.height{
+  min-height: 100vh;
+}
+.title-underline{
+  width: 220px;
+  height: 5px;
+  margin: 0 auto;
+  /* background: blue!important; */
+}
+.height-80{
+  min-height: 80vh;
+}
+.about-picture{
+  background: url('../img/computers.png')center/cover no-repeat fixed;
+  /* background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+
+}
+#filler,#progress{
+  background:linear-gradient(to right,rgba(77, 170, 1, 0.5),rgba(150, 230, 2, 0.89))
+  ,url('../img/project6.jpg');
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
